@@ -1,0 +1,41 @@
+#jumbo {
+    background-image: url(https://images.unsplash.com/photo-1505468469067-796421d49801?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c2a4a328b59b237742e5c6e5393215b2&auto=format&fit=crop&w=1354&q=80);
+   height: 1050PX;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h1.display-4 {
+    font-family: 'rock salt';
+    font-size: 40pt;
+    text-align: left;
+    transform: rotate(-5deg);
+    margin-left: -150px;
+    margin-top: 220px;
+    padding-bottom: 80px;
+}
+
+h3.display-4 {
+    font-size: 100pt;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'playfair display sc';
+    color: black;
+}
+.lead {
+    text-align: center;
+}
+
+.my-4 {
+    text-align: center;
+
+}
+#mainbutton {
+    color: white;
+    background-color: rgb(70, 71, 75);
+    border: none;
+    font-family: 'rock salt';
+
+}

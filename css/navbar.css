@@ -1,0 +1,31 @@
+.nav-item {
+    color: var(--yellow);
+    font-size: 14pt;
+    font-family: 'rock salt';
+}
+.navbar-brand {
+    font-size: 20pt;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'rock salt';
+}
+
+.my-jumbo {
+    text-align: center;
+}
+
+.socialMedia {
+    float: right;
+
+}
+
+i {
+    color: black;
+    font-size: 30pt;
+    padding: none;
+}
+
+.buttonNav {
+    height: 20px;
+    width: 20px;
+}
