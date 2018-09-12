@@ -1,7 +1,12 @@
+.navbar {
+    height: 60px;
+}
+
 .nav-item {
     color: var(--yellow);
     font-size: 14pt;
     font-family: 'rock salt';
+    padding-left: 15px;
 }
 .navbar-brand {
     font-size: 20pt;
@@ -16,16 +21,42 @@
 
 .socialMedia {
     float: right;
+}
 
+.fa-linkedin:hover {
+    color: white;
+}
+
+.fa-github:hover {
+    color: white;
 }
 
 i {
     color: black;
-    font-size: 30pt;
-    padding: none;
+    font-size: 35pt;
+    padding: 0;
 }
 
 .buttonNav {
     height: 20px;
     width: 20px;
 }
+
+.dropdown-menu:hover {
+ background: rgb(255, 255, 255)   
+}
+
+.dropdown-menu {
+    margin-top: -2px;
+    font-family: 'ubuntu';
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown:hover>.dropdown-menu {
+    display:block;
+}
+
+.dropdown-item:hover {
+  color: rgb(202, 118, 85);
+}
+
