@@ -5,14 +5,15 @@
 .nav-item {
     color: var(--yellow);
     font-size: 14pt;
-    font-family: 'rock salt';
+    font-family: 'playfair display sc';
     padding-left: 15px;
 }
 .navbar-brand {
-    font-size: 20pt;
+    font-size: 15pt;
     text-decoration: none;
     font-weight: bold;
     font-family: 'rock salt';
+    padding-left: 10px;
 }
 
 .my-jumbo {
