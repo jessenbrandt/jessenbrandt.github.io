@@ -9,13 +9,16 @@ body {
 }
 
 h5 {
-    font-family: 'rock salt';
+    font-family: 'playfair display sc';
     font-size: 30pt;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
 }
 
 #bio {
     font-size: 15pt;
-    padding-top: 20px;
+    padding-top: 5%;
     padding-left: 60px;
 }
 
@@ -26,5 +29,6 @@ h5 {
 .ml-3 {
     padding-left: 20px;
 padding-bottom: 20px;
+height: 520px;
 }
 

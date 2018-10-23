@@ -1,6 +1,16 @@
+.row2{
+    margin-left: 40%;
+}
+
+.form-control {
+    width: 150%;
+    margin-left: -23%;
+}
+
 h2 {
-    font-family: 'rock salt';
-    font-size: 20pt;
+    font-family: 'playfair display sc';
+    font-size: 25pt;
+    font-weight: bold;
     padding-bottom: 15px;
 }
 
@@ -10,11 +20,11 @@ h2 {
 
 #contact {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    border-top: solid 1px rgba(121, 121, 121, 0.609);
+    padding-top: 5%;
+    padding-bottom: 7%;
+    border-top: solid 1px rgba(226, 146, 92, 0.329);
     background-repeat: no-repeat;
-
+    margin-left: 5%;
 }
 
 label {
@@ -33,7 +43,7 @@ font-family: 'ubuntu';
 }
 
 .btn-black:hover {
-    background-image: url(https://images.unsplash.com/photo-1505468469067-796421d49801?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c2a4a328b59b237742e5c6e5393215b2&auto=format&fit=crop&w=1354&q=80);
+    background-color: rgb(226, 146, 92);
     opacity: .7;
     background-size: cover;
     font-weight: bold;
