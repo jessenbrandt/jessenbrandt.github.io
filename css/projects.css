@@ -66,3 +66,38 @@ h6 {
     font-size: 13pt;
     margin-top: 3%;
 }
+
+@media screen and (max-width: 1283px) { 
+    .col-xl {
+        max-height: 340px;
+        max-width: 340px;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .col-xl img {
+        width: 340px;
+        height: 340px;
+       object-fit:cover;
+    }
+
+    .row {
+        margin-left: 2%;
+    }
+
+    .imgtext {
+        width: 340px;
+        height: 340px;
+        background-color: rgba(226, 146, 92, 0.664);
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        position: absolute;
+        margin-top: -340px;
+        padding: 20px;
+        font-family: 'ubuntu';
+        font-size: 22pt;
+        opacity: 0;
+    }
+}
