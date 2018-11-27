@@ -67,6 +67,43 @@ h6 {
     margin-top: 3%;
 }
 
+@media screen and (max-width: 1445px) { 
+    .col-xl {
+        max-height: 375px;
+        max-width: 375px;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .col-xl img {
+        width: 375px;
+        height: 375px;
+       object-fit:cover;
+    }
+
+    .row {
+        margin-left: 3%;
+    }
+
+    .imgtext {
+        width: 375px;
+        height: 375px;
+        background-color: rgba(226, 146, 92, 0.664);
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        position: absolute;
+        margin-top: -375px;
+        padding: 20px;
+        font-family: 'ubuntu';
+        font-size: 22pt;
+        opacity: 0;
+    }
+   
+
+    }
+
 @media screen and (max-width: 1283px) { 
     .col-xl {
         max-height: 340px;
